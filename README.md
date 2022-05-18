@@ -16,6 +16,17 @@ npx clear-npx-cache
 npm uninstall -g create-react-app
 ```
 
+### JSX
+```javascript
+function App() {
+  return (
+    <div style={{ backgroundColor: 'red', border: '1px solid red' }}>
+      Hi there!
+    </div>
+  );
+}
+```
+
 ### Learning Materials:
 - [Udemy: Learning React with Redux (Stephen Grider)](https://www.udemy.com/share/101WcY3@OGSJpEcHFS_tCt09qFK27O1wINrLabYACt5Ok9tYPRz5--EKh9vZKh07DZmygQzq/)
 
